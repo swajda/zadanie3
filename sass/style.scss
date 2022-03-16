@@ -7,15 +7,19 @@
 
 .t1 li {
     display: inline;
-    padding: 0 25px;    
+    padding: 0 25px;
+       
 }
-
+.t1 a, .row a {
+    text-decoration: none;
+    color:rgb(0, 0, 0); 
+}
 .nav {
     text-align: center;
 }
 .splash {
     text-align: center;
-    padding: 150px 0;
+    padding: 30px 0;
     background-image: url(https://via.placeholder.com/1400x700.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,13 +30,15 @@
 .splash h2 {
     font-size: 45px;
 }
-
+.splash1 {
+    padding: 150px 0;
+}
 
 .button {
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 238, 0);
-    border-color: rgb(255, 238, 0);
+    background-color: #ff8800;
+    border-color: #ff8800;
     text-decoration: none;
     padding: 25px 45px;
-    border-radius: 5px;
+    border-radius: 30%;
 }
