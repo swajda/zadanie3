@@ -1,0 +1,38 @@
+.row > *:nth-child(1) { 
+    flex: 1 1 50%;   
+}
+.row > *:nth-child(2) {  
+    flex: 1 1 50%;  
+}
+
+.t1 li {
+    display: inline;
+    padding: 0 25px;    
+}
+
+.nav {
+    text-align: center;
+}
+.splash {
+    text-align: center;
+    padding: 150px 0;
+    background-image: url(https://via.placeholder.com/1400x700.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+.splash h1{
+    font-size: 60px;
+}
+.splash h2 {
+    font-size: 45px;
+}
+
+
+.button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 238, 0);
+    border-color: rgb(255, 238, 0);
+    text-decoration: none;
+    padding: 25px 45px;
+    border-radius: 5px;
+}
